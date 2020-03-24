@@ -50,7 +50,7 @@ def total_gross(source)
  # while count < source.length do
     
   #  total += 
-   pp source 
+   pp directors_totals(source)
 end
 
 
