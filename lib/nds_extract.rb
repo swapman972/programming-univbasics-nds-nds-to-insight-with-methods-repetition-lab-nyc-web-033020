@@ -54,7 +54,7 @@ def total_gross(source)
     total << list_of_directors(source)[count]
     count+= 1
   end
-  
+  total
 end
 
 
