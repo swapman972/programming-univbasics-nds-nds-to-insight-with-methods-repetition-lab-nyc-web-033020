@@ -26,7 +26,13 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-  pp source
+  array_answer = []
+  count = 0
+  while count < source.length do
+    array_answer << source[count][:name]
+    count += 1
+  end
+  array_answer
 end
 
 def total_gross(source)
