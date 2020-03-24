@@ -51,7 +51,7 @@ def total_gross(source)
     
   #  total += 
 #   pp directors_totals(source)
-    total += gross_for_director(source)[count]
+    total += gross_for_director(source[count])
     count+= 1
   end
   total
