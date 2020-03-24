@@ -48,9 +48,6 @@ def total_gross(source)
   total = 0
   count = 0
   while count < source.length do
-    
-  #  total += 
-#   pp directors_totals(source)
     total += gross_for_director(source[count])
     count+= 1
   end
