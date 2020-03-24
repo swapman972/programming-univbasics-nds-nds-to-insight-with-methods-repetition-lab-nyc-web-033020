@@ -47,10 +47,10 @@ def total_gross(source)
   # return the total
   total = 0
   count = 0
-  while count < source.length do
+ # while count < source.length do
     
-    total += 
-    
+  #  total += 
+   pp source 
 end
 
 
